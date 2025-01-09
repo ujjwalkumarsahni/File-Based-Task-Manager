@@ -1,0 +1,1 @@
+React is a JavaScript library used to build user interfaces (UIs) for websites and applications. It is developed and maintained by Meta (formerly Facebook) and a large community of developers. React makes it easy to create dynamic, interactive, and fast-loading web pages.

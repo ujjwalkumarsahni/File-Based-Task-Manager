@@ -1,0 +1,1 @@
+Express.js (or simply Express) is a web framework for Node.js. It makes building web servers and applications easier by providing tools and features for handling requests, responses, routing, and more. It is lightweight, fast, and one of the most popular frameworks for Node.js.

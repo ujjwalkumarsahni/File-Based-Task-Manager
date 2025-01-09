@@ -1,0 +1,1 @@
+CSS is used for styling HTML elements. It defines the visual appearance of a webpage (e.g., colors, fonts, layout). CSS can be written inline, embedded in a <style> tag, or in external .css files.

@@ -1,0 +1,1 @@
+HTML is the standard language used to create and structure content on the web. It defines the structure of web pages by using elements or tags, such as <div>, <h1>, <p>, and <a>. HTML outlines the content of a webpage, such as headings, paragraphs, images, and links.

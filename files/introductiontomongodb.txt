@@ -1,0 +1,1 @@
+MongoDB is a NoSQL database system that stores data in a flexible, JSON-like format called BSON (Binary JSON). Unlike traditional relational databases, MongoDB doesn't use tables and rows. Instead, it uses collections of documents, allowing for more flexibility in the structure of data.

@@ -1,0 +1,1 @@
+JavaScript is a programming language that is mainly used to make websites interactive and dynamic. It's one of the core technologies of the web, alongside HTML (for structure) and CSS (for styling). If you've ever seen animations, pop-ups, or forms that respond without reloading the page, that's JavaScript in action.

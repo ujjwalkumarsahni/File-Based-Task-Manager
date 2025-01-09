@@ -1,0 +1,1 @@
+Python is a high-level programming language that is widely used for many purposes. It is popular because it is easy to learn, versatile, and has a simple and readable syntax. Python is often recommended for beginners because it lets you focus on solving problems without worrying about complex syntax.
