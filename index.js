@@ -31,6 +31,21 @@ app.get('/files/:filename', (req, res) => {
     });
 });
 
+app.get('/edit/:filename', (req, res) => {
+    res.render('edit', {filename: req.params.filename});
+});
+app.post('/edit', (req, res) => {
+    fs.rename(`./files/${req.body.oldfilename}`, `./files/${req.body.newfilename}`, (err) => {
+        if (err) {
+            console.log(err);
+            res.send('Error renaming file');
+        } else {
+            res.redirect('/');
+            console.log('File renamed successfully');
+        }
+    });
+});
+
 app.post('/create', (req, res) => {
     console.log(req.body);
     fs.writeFile(`./files/${req.body.title.split(' ').join('')}.txt`, req.body.details, (err) => {

@@ -12,7 +12,7 @@
 <body>
     <div class="main w-full min-h-screen bg-zinc-900">
         <div class="form-container p-10 text-white">
-            <form action="create" method="POST">
+            <form action="/create" method="POST">
                 <input class="block w-full outline-none rounded-md px-5 py-2 bg-zinc-700" type="text" id="task"
                     placeholder="Enter Task" name="title">
                 <textarea class="block w-full outline-none rounded-md mt-2 px-5 py-2 resize-none bg-zinc-700"
@@ -21,16 +21,22 @@
             </form>
         </div>
         <div class="task-container p-10 text-white flex gap-5 flex-wrap justify-center">
-            <% if (files && files.length > 0) { %>
-                <% files.forEach((val) => { %>
+            <% if (files && files.length> 0) { %>
+                <% files.forEach((val)=> { %>
                     <div class="task w-[400px] px-3 py-2 rounded-md bg-zinc-700">
-                        <h1 class="text-white text-3xl tracking-tighter"><%= val %></h1>
-                        <a class="text-blue-500 inline-block mt-3" href="/files/<%= val %>">Read More</a>
+                        <h1 class="text-white text-3xl tracking-tighter">
+                            <%= val %>
+                        </h1>
+                        <div class="flex justify-between mt-2">
+                            <a class="text-blue-500" href="/files/<%= val %>">Read More</a>
+                            <a class="text-blue-500 " href="/edit/<%= val %>">Edit filename</a>
+                        </div>
+
                     </div>
-                <% }) %>
-            <% } else { %>
-                <h1 class="text-white">No Task Found</h1>
-            <% } %>
+                    <% }) %>
+                        <% } else { %>
+                            <h1 class="text-white">No Task Found</h1>
+                            <% } %>
         </div>
     </div>
 </body>
