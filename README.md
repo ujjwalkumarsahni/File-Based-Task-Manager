@@ -16,5 +16,5 @@ A lightweight Node.js application to manage tasks using file-based storage. This
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ujjwalkumarsahni/File-Based-Task-Manager-UI-Bankend.git
+   git clone https://github.com/ujjwalkumarsahni/File-Based-Task-Manager.git
 
